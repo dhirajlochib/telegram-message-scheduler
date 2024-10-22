@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Telegram Message Scheduler</title>
+</head>
+<body>
+  <div class="container">
+    <h1>🕒 Telegram Scheduler</h1>
+    <form id="schedule-form">
+      <div class="input-group">
+        <label for="message">Message:</label>
+        <textarea id="message" class="input-box" placeholder="Enter your message here"></textarea>
+      </div>
+
+      <div class="input-group">
+        <label for="time">Time (HH:MM:SS):</label>
+        <div class="time-inputs">
+          <input type="number" id="hours" class="time-box" placeholder="HH" min="0" max="23">
+          <span>:</span>
+          <input type="number" id="minutes" class="time-box" placeholder="MM" min="0" max="59">
+          <span>:</span>
+          <input type="number" id="seconds" class="time-box" placeholder="SS" min="0" max="59">
+          <span>:</span>
+            <input type="number" id="milliseconds" class="time-box" placeholder="MS" min="0" max="999">
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">📅 Schedule Message</button>
+    </form>
+
+    <div id="status"></div>
+    <div id="scheduled-messages"></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

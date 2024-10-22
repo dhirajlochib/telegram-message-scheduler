@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Telegram Message Scheduler",
+  "description": "Schedule and send messages on Telegram Web with precise timing in milliseconds.",
+  "version": "1.1",
+  "permissions": [
+      "scripting",
+      "activeTab",
+      "alarms",
+      "storage"
+  ],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+          "16": "icon-16.png",
+          "48": "icon-48.png",
+          "128": "icon-128.png"
+      }
+  },
+  "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+  },
+  "background": {
+      "service_worker": "background.js"
+  },
+  "host_permissions": [
+      "https://web.telegram.org/*"
+  ]
+}

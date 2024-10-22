@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 20px;
+    width: 350px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  textarea.input-box, input.input-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 5px;
+    transition: border-color 0.2s;
+  }
+  
+  textarea.input-box:focus, input.input-box:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .time-inputs {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time-box {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-right: 5px;
+    transition: border-color 0.2s;
+  }
+  
+  .time-box:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .time-inputs span {
+    margin: 0 5px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  #status {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: green;
+    text-align: center;
+  }
+  /* styles.css or within a <style> tag in popup.html */
+#scheduled-messages {
+    margin-top: 20px;
+}
+
+.scheduled-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Border for message box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between messages */
+}
+
+.message-text {
+    flex-grow: 1; /* Allows text to take available space */
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: #dc3545; /* Bootstrap danger color */
+    font-size: 18px; /* Larger font for visibility */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.2s;
+}
+
+.delete-button:hover {
+    color: #c82333; /* Darker red on hover */
+}
