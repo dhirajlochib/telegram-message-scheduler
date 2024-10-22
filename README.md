@@ -12,7 +12,6 @@ Welcome to the **Telegram Message Scheduler**! This Chrome extension allows you 
 - **Schedule Messages**: Set up messages to be sent at a specified date and time.
 - **Recurring Messages**: Choose to send messages at regular intervals (daily, weekly, etc.).
 - **User-Friendly Interface**: An intuitive interface for easy message scheduling right within Chrome.
-- **Notifications**: Get alerts when your scheduled messages are sent successfully.
 - **Multi-User Support**: Schedule messages for multiple Telegram accounts effortlessly.
 
 ## 💻 Installation
@@ -42,9 +41,9 @@ Welcome to the **Telegram Message Scheduler**! This Chrome extension allows you 
 We welcome contributions to the Telegram Message Scheduler! Here’s how you can contribute:
 
 1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/YourFeature`).
+2. Create your feature branch (`git checkout -b feature/Feature`).
 3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
+4. Push to the branch (`git push origin feature/Feature`).
 5. Open a pull request.
 
 ## 📜 License
@@ -53,7 +52,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Acknowledgments
 
-- [Telegram API](https://core.telegram.org/bots/api) for providing the messaging capabilities.
 - [Chrome Extensions Documentation](https://developer.chrome.com/docs/extensions/mv3/) for guidance on building Chrome extensions.
 
 ## 📫 Contact
@@ -61,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions, feel free to reach out!
 
 - GitHub: [dhirajlochib](https://github.com/dhirajlochib)
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [dhirajlochib@gmail.com](mailto:dhirajlochib@gmail.com)
 
 ---
 
